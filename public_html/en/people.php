@@ -1,0 +1,95 @@
+<?php
+$page_title = "Our People";
+$current_page = "people";
+$meta_description = "Meet the HealthSyncX team, partners, advisors, and collaborators building the future of healthcare technology integration.";
+$canonical_url = "/en/people";
+$vi_page = "people.php";
+include '../includes/header-en.php';
+?>
+
+<!-- Hero -->
+<section class="relative overflow-hidden mb-0">
+    <div class="w-full h-64 md:h-80 lg:h-96">
+        <img src="/assets/images/people-hero.jpg" alt="Our people and team" class="w-full h-full object-cover object-center">
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-0">
+            <!-- Team -->
+            <div class="bg-slate-100 dark:bg-gray-900 border border-slate-300 dark:border-gray-700 rounded-lg p-8 hover:shadow-lg dark:hover:shadow-xl dark:hover:shadow-white/20 transition-shadow">
+                <div class="flex items-center gap-4 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
+                        Core Team
+                    </h2>
+                </div>
+                <p class="text-muted-foreground dark:text-gray-300 leading-relaxed">
+                    Our dedicated team brings together expertise in biomedical engineering, healthcare IT, and systems integration.
+                </p>
+            </div>
+            
+            <!-- Partners -->
+            <div class="bg-slate-100 dark:bg-gray-900 border border-slate-300 dark:border-gray-700 rounded-lg p-8 hover:shadow-lg dark:hover:shadow-xl dark:hover:shadow-white/20 transition-shadow">
+                <div class="flex items-center gap-4 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg>
+                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
+                        Strategic Partners
+                    </h2>
+                </div>
+                <p class="text-muted-foreground dark:text-gray-300 leading-relaxed">
+                    We collaborate with leading technology providers, healthcare organizations, and research institutions across the Asia-Pacific region.
+                </p>
+            </div>
+            
+            <!-- Advisors -->
+            <div class="bg-slate-100 dark:bg-gray-900 border border-slate-300 dark:border-gray-700 rounded-lg p-8 hover:shadow-lg dark:hover:shadow-xl dark:hover:shadow-white/20 transition-shadow">
+                <div class="flex items-center gap-4 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
+                        Advisory Board
+                    </h2>
+                </div>
+                <p class="text-muted-foreground dark:text-gray-300 leading-relaxed">
+                    Our advisors provide strategic guidance across healthcare innovation, regulatory compliance, and market expansion.
+                </p>
+            </div>
+            
+            <!-- Collaborators -->
+            <div class="bg-slate-100 dark:bg-gray-900 border border-slate-300 dark:border-gray-700 rounded-lg p-8 hover:shadow-lg dark:hover:shadow-xl dark:hover:shadow-white/20 transition-shadow">
+                <div class="flex items-center gap-4 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="M12 18v-6"></path><path d="M8 18v-1"></path><path d="M16 18v-3"></path></svg>
+                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
+                        Research Collaborators
+                    </h2>
+                </div>
+                <p class="text-muted-foreground dark:text-gray-300 leading-relaxed">
+                    We work closely with universities and research centers to advance healthcare technology integration and innovation.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Join CTA -->
+<section class="py-16 bg-card">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-100 dark:bg-gray-900 border border-slate-300 dark:border-gray-700 rounded-lg p-8 md:p-12 hover:shadow-lg dark:hover:shadow-xl dark:hover:shadow-white/20 transition-shadow text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-foreground dark:text-white mb-4">
+                Join Our Network
+            </h2>
+            <p class="text-lg text-muted-foreground dark:text-gray-300 mb-8 max-w-2xl mx-auto">
+                We're always looking for talented professionals, strategic partners, and research collaborators to join our mission of transforming healthcare through people-first systems integration.
+            </p>
+            <div class="flex justify-center">
+                <a href="/en/collaboration.php" class="inline-flex items-center justify-center px-6 py-3 bg-slate-600 text-white rounded-md font-medium hover:bg-slate-700 transition-colors no-underline">
+                    Partner With Us
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php include '../includes/footer-en.php'; ?>
